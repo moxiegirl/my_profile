@@ -4,8 +4,8 @@ alias dadate="date|cat - ~/Dropbox/daily_do_diary.txt > /tmp/out && mv -f /tmp/o
 
 alias checkpoint='git commit -s -m "Checkpoint"'
 alias edit="bbedit"
-alias imagekiller="docker rmi -f $(docker images -q -a -f dangling=true)"
-alias imagenuker="docker rmi -f $(docker images -q -a )"
+# alias imagekiller="docker rmi -f $(docker images -q -a -f dangling=true)"
+# alias imagenuker="docker rmi -f $(docker images -q -a )"
 
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
