@@ -6,6 +6,12 @@ for file in ~/.{bash_prompt,aliases,functions,helpers,path,extra,exports}; do
 done
 unset file
 
+# Function to trape a note
+
+notethis() {
+    echo $1 >> ~/Dropbox/notethis.txt
+}
+
 # Case-insensitive globbing (used in pathname expansion)
 shopt -s nocaseglob
 
